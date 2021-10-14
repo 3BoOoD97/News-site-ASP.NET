@@ -27,11 +27,14 @@ namespace WebApplication4
             DataSet ds = new DataSet();
             da.Fill(ds, "users");
             if (ds.Tables["users"].Rows.Count == 0)
-            Response.Write("Invalid User");
+                Response.Write("Invalid User");
 
             else
-                Response.Redirect("reg.aspx");
+            {
+                Session["un"] = txtUN.Text;
+                Response.Redirect("Settings.aspx");
 
+            }
         }
     }
 }

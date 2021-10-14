@@ -12,9 +12,9 @@
         </div>
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="Button" Width="98px" />
-            <asp:Button ID="Button2" runat="server" Text="Button" Width="94px" />
-            <asp:Button ID="Button3" runat="server" Text="Button" Width="93px" />
+            <asp:Button ID="AddUser" runat="server" OnClick="AddUser_Click" Text="Add User" Width="251px" />
+            <asp:Button ID="AddArticle" runat="server" OnClick="AddArticle_Click" Text="Add Article" Width="248px" />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Edit Article" Width="230px" />
         </p>
     </form>
 </body>

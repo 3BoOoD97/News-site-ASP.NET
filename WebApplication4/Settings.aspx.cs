@@ -11,7 +11,22 @@ namespace WebApplication4
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label1.Text = "Welcome  "+Session["un"].ToString();
+        }
 
+        protected void AddUser_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("reg.aspx");
+        }
+
+        protected void AddArticle_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Articles.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditArt.aspx");
         }
     }
 }
