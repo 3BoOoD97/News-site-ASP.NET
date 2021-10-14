@@ -26,7 +26,6 @@ namespace WebApplication4
             cm.ExecuteNonQuery();
             cn.Close();
             File1.PostedFile.SaveAs(Server.MapPath("imgs\\")+strImg);
-
         }
     }
 }

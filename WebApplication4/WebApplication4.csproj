@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Articles.aspx" />
     <Content Include="EditArt.aspx" />
+    <Content Include="Settings.aspx" />
     <Content Include="Web.config" />
     <Content Include="Reg.aspx" />
     <Content Include="WebForm2.aspx" />
@@ -95,6 +96,13 @@
     </Compile>
     <Compile Include="Reg.aspx.designer.cs">
       <DependentUpon>Reg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
